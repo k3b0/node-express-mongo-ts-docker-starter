@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts",
-    "build": "tsc -p ./dist"
+    "build": "tsc -b"
   },
   "dependencies": {
     "@bugsnag/js": "^7.17.0",
